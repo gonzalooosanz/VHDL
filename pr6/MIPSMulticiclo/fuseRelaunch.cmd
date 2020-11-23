@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/hlocal/pr6/MIPSMulticiclo/rutaDeDatos_isim_beh.exe" -prj "C:/hlocal/pr6/MIPSMulticiclo/rutaDeDatos_beh.prj" "work.rutaDeDatos" 

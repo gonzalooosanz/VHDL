@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"C:/hlocal/pr6/MIPSMulticiclo/hdl/rutaDeDatos.vhd" Line 183: &lt;<arg fmt="%s" index="1">biestable</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"C:/hlocal/pr6/MIPSMulticiclo/hdl/rutaDeDatos.vhd" Line 184: &lt;<arg fmt="%s" index="1">biestable</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"C:/hlocal/pr6/MIPSMulticiclo/hdl/rutaDeDatos.vhd" Line 186: &lt;<arg fmt="%s" index="1">resync</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/hlocal/pr6/MIPSMulticiclo/hdl/rutaDeDatos.vhd</arg>&quot; Line <arg fmt="%d" index="2">183</arg>. Instance <arg fmt="%s" index="3">biestable</arg> is unbound
+</msg>
+
+<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/hlocal/pr6/MIPSMulticiclo/hdl/rutaDeDatos.vhd</arg>&quot; Line <arg fmt="%d" index="2">184</arg>. Instance <arg fmt="%s" index="3">biestable</arg> is unbound
+</msg>
+
+<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/hlocal/pr6/MIPSMulticiclo/hdl/rutaDeDatos.vhd</arg>&quot; Line <arg fmt="%d" index="2">186</arg>. Instance <arg fmt="%s" index="3">resync</arg> is unbound
+</msg>
+
+</messages>
+

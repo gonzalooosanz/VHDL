@@ -1,0 +1,325 @@
+Release 14.1 Map P.15xf (nt64)
+Xilinx Mapping Report File for Design 'MIPSMulticiclo'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off
+-c 100 -o MIPSMulticiclo_map.ncd MIPSMulticiclo.ngd MIPSMulticiclo.pcf 
+Target Device  : xc3s1000
+Target Package : ft256
+Target Speed   : -5
+Mapper Version : spartan3 -- $Revision: 1.55 $
+Mapped Date    : Wed Dec 19 13:06:59 2018
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:         1,226 out of  15,360    7%
+  Number of 4 input LUTs:             1,567 out of  15,360   10%
+Logic Distribution:
+  Number of occupied Slices:          1,327 out of   7,680   17%
+    Number of Slices containing only related logic:   1,327 out of   1,327 100%
+    Number of Slices containing unrelated logic:          0 out of   1,327   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:       1,584 out of  15,360   10%
+    Number used as logic:             1,567
+    Number used as a route-thru:         17
+
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+  Number of bonded IOBs:                 33 out of     173   19%
+  Number of RAMB16s:                      1 out of      24    4%
+  Number of BUFGMUXs:                     2 out of       8   25%
+  Number of DCMs:                         1 out of       4   25%
+
+Average Fanout of Non-Clock Nets:                3.96
+
+Peak Memory Usage:  4462 MB
+Total REAL time to MAP completion:  2 secs 
+Total CPU time to MAP completion:   2 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:Security:43 - No license file was found in the standard Xilinx license
+directory.
+WARNING:Security:44 - Since no license file was found,
+WARNING:Security:42 - Your software subscription period has lapsed. Your current
+version of Xilinx tools will continue to function, but you no longer qualify for
+Xilinx software updates or new releases.
+
+Section 3 - Informational
+-------------------------
+INFO:Security:50 - The XILINXD_LICENSE_FILE environment variable is set to
+'1717@fdilicencias1.fdi.ucm.es;2100@fdilicencias1.fdi.ucm.es'.
+INFO:Security:52 - The LM_LICENSE_FILE environment variable is set to
+'1717@fdilicencias1.fdi.ucm.es;2100@fdilicencias1.fdi.ucm.es'.
+INFO:Security:54 - 'xc3s1000' is a WebPack part.
+INFO:LIT:243 - Logical network
+   RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/
+   DOUTB<31> has no load.
+INFO:LIT:395 - The above info message is repeated 31 more times for the
+   following (max. 5 shown):
+   RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/
+   DOUTB<30>,
+   RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/
+   DOUTB<29>,
+   RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/
+   DOUTB<28>,
+   RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/
+   DOUTB<27>,
+   RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/
+   DOUTB<26>
+   To see the details of these info messages, please use the -detail switch.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+   4 block(s) optimized away
+  32 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+The signal
+"RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/DO
+UTB<31>" is sourceless and has been removed.
+The signal
+"RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/DO
+UTB<30>" is sourceless and has been removed.
+The signal
+"RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/DO
+UTB<29>" is sourceless and has been removed.
+The signal
+"RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/DO
+UTB<28>" is sourceless and has been removed.
+The signal
+"RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/DO
+UTB<27>" is sourceless and has been removed.
+The signal
+"RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/DO
+UTB<26>" is sourceless and has been removed.
+The signal
+"RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/DO
+UTB<25>" is sourceless and has been removed.
+The signal
+"RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/DO
+UTB<24>" is sourceless and has been removed.
+The signal
+"RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/DO
+UTB<23>" is sourceless and has been removed.
+The signal
+"RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/DO
+UTB<22>" is sourceless and has been removed.
+The signal
+"RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/DO
+UTB<21>" is sourceless and has been removed.
+The signal
+"RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/DO
+UTB<20>" is sourceless and has been removed.
+The signal
+"RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/DO
+UTB<19>" is sourceless and has been removed.
+The signal
+"RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/DO
+UTB<18>" is sourceless and has been removed.
+The signal
+"RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/DO
+UTB<17>" is sourceless and has been removed.
+The signal
+"RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/DO
+UTB<16>" is sourceless and has been removed.
+The signal
+"RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/DO
+UTB<15>" is sourceless and has been removed.
+The signal
+"RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/DO
+UTB<14>" is sourceless and has been removed.
+The signal
+"RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/DO
+UTB<13>" is sourceless and has been removed.
+The signal
+"RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/DO
+UTB<12>" is sourceless and has been removed.
+The signal
+"RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/DO
+UTB<11>" is sourceless and has been removed.
+The signal
+"RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/DO
+UTB<10>" is sourceless and has been removed.
+The signal
+"RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/DO
+UTB<9>" is sourceless and has been removed.
+The signal
+"RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/DO
+UTB<8>" is sourceless and has been removed.
+The signal
+"RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/DO
+UTB<7>" is sourceless and has been removed.
+The signal
+"RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/DO
+UTB<6>" is sourceless and has been removed.
+The signal
+"RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/DO
+UTB<5>" is sourceless and has been removed.
+The signal
+"RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/DO
+UTB<4>" is sourceless and has been removed.
+The signal
+"RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/DO
+UTB<3>" is sourceless and has been removed.
+The signal
+"RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/DO
+UTB<2>" is sourceless and has been removed.
+The signal
+"RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/DO
+UTB<1>" is sourceless and has been removed.
+The signal
+"RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/DO
+UTB<0>" is sourceless and has been removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND
+		RD/mem/mem/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/X
+ST_GND
+GND 		RD/mem/mem/XST_GND
+GND 		XST_GND
+VCC 		XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| clk                                | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| displayD<0>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| displayD<1>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| displayD<2>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| displayD<3>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| displayD<4>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| displayD<5>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| displayD<6>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| displayI<0>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| displayI<1>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| displayI<2>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| displayI<3>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| displayI<4>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| displayI<5>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| displayI<6>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| displayS<0>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| displayS<1>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| displayS<2>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| displayS<3>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| displayS<4>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| displayS<5>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| displayS<6>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| modo                               | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| rst_n                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| siguiente                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| sw_ext<0>                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| sw_ext<1>                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| sw_ext<2>                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| sw_ext<3>                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| sw_sup<0>                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| sw_sup<1>                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| sw_sup<2>                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| sw_sup<3>                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+This design was not run using timing mode.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+No control set information for this architecture.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

@@ -1,0 +1,8 @@
+vhdl work "hdl/registro.vhd"
+vhdl work "hdl/multiplexor4a1.vhd"
+vhdl work "hdl/multiplexor2a1.vhd"
+vhdl work "hdl/memoria.vhd"
+vhdl work "hdl/bancoDeRegistros.vhd"
+vhdl work "hdl/ALU.vhd"
+vhdl work "hdl/rutaDeDatos.vhd"
+vhdl work "ipcore_dir/mem32x512.vhd"

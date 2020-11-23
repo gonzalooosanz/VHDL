@@ -1,0 +1,49 @@
+Running: C:\software\electronica\xilinx\14.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/hlocal/pr6/MIPSMulticiclo/rutaDeDatos_isim_beh.exe -prj C:/hlocal/pr6/MIPSMulticiclo/rutaDeDatos_beh.prj work.rutaDeDatos 
+ISim P.15xf (signature 0xc3576ebc)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/hlocal/pr6/MIPSMulticiclo/hdl/registro.vhd" into library work
+Parsing VHDL file "C:/hlocal/pr6/MIPSMulticiclo/hdl/multiplexor4a1.vhd" into library work
+Parsing VHDL file "C:/hlocal/pr6/MIPSMulticiclo/hdl/multiplexor2a1.vhd" into library work
+Parsing VHDL file "C:/hlocal/pr6/MIPSMulticiclo/hdl/memoria.vhd" into library work
+Parsing VHDL file "C:/hlocal/pr6/MIPSMulticiclo/hdl/bancoDeRegistros.vhd" into library work
+Parsing VHDL file "C:/hlocal/pr6/MIPSMulticiclo/hdl/ALU.vhd" into library work
+Parsing VHDL file "C:/hlocal/pr6/MIPSMulticiclo/hdl/rutaDeDatos.vhd" into library work
+Parsing VHDL file "C:/hlocal/pr6/MIPSMulticiclo/ipcore_dir/mem32x512.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:89 - "C:/hlocal/pr6/MIPSMulticiclo/hdl/rutaDeDatos.vhd" Line 183: <biestable> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "C:/hlocal/pr6/MIPSMulticiclo/hdl/rutaDeDatos.vhd" Line 184: <biestable> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "C:/hlocal/pr6/MIPSMulticiclo/hdl/rutaDeDatos.vhd" Line 186: <resync> remains a black-box since it has no binding entity.
+Completed static elaboration
+WARNING:Simulator:648 - "C:/hlocal/pr6/MIPSMulticiclo/hdl/rutaDeDatos.vhd" Line 183. Instance biestable is unbound
+WARNING:Simulator:648 - "C:/hlocal/pr6/MIPSMulticiclo/hdl/rutaDeDatos.vhd" Line 184. Instance biestable is unbound
+WARNING:Simulator:648 - "C:/hlocal/pr6/MIPSMulticiclo/hdl/rutaDeDatos.vhd" Line 186. Instance resync is unbound
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture registroarch of entity registro [\registro(32)\]
+Compiling architecture multiplexor2a1arch of entity multiplexor2a1 [\multiplexor2a1(32)\]
+Compiling package textio
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package std_logic_textio
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V7_1_output_stage [\BLK_MEM_GEN_V7_1_output_stage("...]
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V7_1_output_stage [\BLK_MEM_GEN_V7_1_output_stage("...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity BLK_MEM_GEN_V7_1_softecc_output_reg_stage [\BLK_MEM_GEN_V7_1_softecc_output...]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V7_1_mem_module [\BLK_MEM_GEN_V7_1_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V7_1 [\BLK_MEM_GEN_V7_1("blk_mem_gen_v...]
+Compiling architecture mem32x512_a of entity mem32x512 [mem32x512_default]
+Compiling architecture memoriaarch of entity memoria [memoria_default]
+Compiling architecture multiplexor2a1arch of entity multiplexor2a1 [\multiplexor2a1(5)\]
+Compiling architecture multiplexor4a1arch of entity multiplexor4a1 [\multiplexor4a1(32)\]
+Compiling architecture multiplexor4a1arch of entity multiplexor4a1 [\multiplexor4a1(16)\]
+Compiling architecture bancoderegistrosarch of entity bancoDeRegistros [bancoderegistros_default]
+Compiling architecture aluarch of entity ALU [alu_default]
+Compiling architecture rutadedatosarch of entity rutadedatos
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 36 VHDL Units
+Built simulation executable C:/hlocal/pr6/MIPSMulticiclo/rutaDeDatos_isim_beh.exe
+Fuse Memory Usage: 42820 KB
+Fuse CPU Usage: 640 ms

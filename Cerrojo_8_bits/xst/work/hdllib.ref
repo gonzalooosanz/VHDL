@@ -1,0 +1,8 @@
+AR debouncer debouncerarch E:/Cerrojo_8_bits/debouncer.vhd sub00/vhpl03 1539768017
+AR divisor rtl E:/Cerrojo_8_bits/divisor.vhd sub00/vhpl07 1539768015
+AR cerrojo_8_bits behavioral E:/Cerrojo_8_bits/cerrojo_8_bits.vhd sub00/vhpl01 1539768021
+EN divisor NULL E:/Cerrojo_8_bits/divisor.vhd sub00/vhpl06 1539768014
+EN cerrojo_8_bits NULL E:/Cerrojo_8_bits/cerrojo_8_bits.vhd sub00/vhpl00 1539768020
+AR conv_7seg beh E:/Cerrojo_8_bits/conv_7seg.vhd sub00/vhpl05 1539768019
+EN conv_7seg NULL E:/Cerrojo_8_bits/conv_7seg.vhd sub00/vhpl04 1539768018
+EN debouncer NULL E:/Cerrojo_8_bits/debouncer.vhd sub00/vhpl02 1539768016

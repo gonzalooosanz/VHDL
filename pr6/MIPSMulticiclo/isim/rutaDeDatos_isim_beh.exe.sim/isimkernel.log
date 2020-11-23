@@ -1,0 +1,28 @@
+Command line:
+   rutaDeDatos_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  53077
+
+Wed Dec 19 12:36:27 2018
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5833.91 Meg
+
+ Total Signals          : 341
+ Total Nets             : 19028
+ Total Signal Drivers   : 99
+ Total Blocks           : 33
+ Total Primitive Blocks : 24
+ Total Processes        : 74
+ Total Traceable Variables  : 237
+ Total Scalar Nets and Variables : 20599
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 5362.05 Meg
+
+Wed Dec 19 12:38:55 2018
+

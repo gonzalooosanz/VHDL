@@ -1,0 +1,4 @@
+vhdl work "divisor.vhd"
+vhdl work "debouncer.vhd"
+vhdl work "conv_7seg.vhd"
+vhdl work "cerrojo_8_bits.vhd"

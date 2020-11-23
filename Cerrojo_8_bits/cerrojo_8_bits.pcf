@@ -1,0 +1,27 @@
+//! **************************************************************************
+// Written by: Map P.15xf on Wed Oct 17 11:20:30 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "display<6>" LOCATE = SITE "G1" LEVEL 1;
+COMP "clk" LOCATE = SITE "T9" LEVEL 1;
+COMP "led" LOCATE = SITE "L5" LEVEL 1;
+COMP "clave<0>" LOCATE = SITE "P12" LEVEL 1;
+COMP "clave<1>" LOCATE = SITE "J1" LEVEL 1;
+COMP "clave<2>" LOCATE = SITE "H1" LEVEL 1;
+COMP "clave<3>" LOCATE = SITE "H3" LEVEL 1;
+COMP "clave<4>" LOCATE = SITE "G2" LEVEL 1;
+COMP "clave<5>" LOCATE = SITE "K15" LEVEL 1;
+COMP "clave<6>" LOCATE = SITE "K16" LEVEL 1;
+COMP "clave<7>" LOCATE = SITE "F15" LEVEL 1;
+COMP "display<0>" LOCATE = SITE "E2" LEVEL 1;
+COMP "display<1>" LOCATE = SITE "E1" LEVEL 1;
+COMP "display<2>" LOCATE = SITE "F3" LEVEL 1;
+COMP "rst" LOCATE = SITE "K4" LEVEL 1;
+COMP "display<3>" LOCATE = SITE "F2" LEVEL 1;
+COMP "habilitar" LOCATE = SITE "H4" LEVEL 1;
+COMP "display<4>" LOCATE = SITE "G4" LEVEL 1;
+COMP "display<5>" LOCATE = SITE "G3" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

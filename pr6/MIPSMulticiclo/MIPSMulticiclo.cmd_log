@@ -1,0 +1,90 @@
+xst -intstyle ise -ifn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc hdl/pines.ucf -p xc3s1000-ft256-5 MIPSMulticiclo.ngc MIPSMulticiclo.ngd  
+xst -intstyle ise -ifn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc hdl/pines.ucf -p xc3s1000-ft256-5 MIPSMulticiclo.ngc MIPSMulticiclo.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o MIPSMulticiclo_map.ncd MIPSMulticiclo.ngd MIPSMulticiclo.pcf 
+par -w -intstyle ise -ol high -t 1 MIPSMulticiclo_map.ncd MIPSMulticiclo.ncd MIPSMulticiclo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MIPSMulticiclo.twx MIPSMulticiclo.ncd -o MIPSMulticiclo.twr MIPSMulticiclo.pcf 
+xst -intstyle ise -ifn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc hdl/pines.ucf -p xc3s1000-ft256-5 MIPSMulticiclo.ngc MIPSMulticiclo.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o MIPSMulticiclo_map.ncd MIPSMulticiclo.ngd MIPSMulticiclo.pcf 
+par -w -intstyle ise -ol high -t 1 MIPSMulticiclo_map.ncd MIPSMulticiclo.ncd MIPSMulticiclo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MIPSMulticiclo.twx MIPSMulticiclo.ncd -o MIPSMulticiclo.twr MIPSMulticiclo.pcf 
+bitgen -intstyle ise -f MIPSMulticiclo.ut MIPSMulticiclo.ncd 
+bitgen -intstyle ise -f MIPSMulticiclo.ut MIPSMulticiclo.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc hdl/pines.ucf -p xc3s1000-ft256-5 MIPSMulticiclo.ngc MIPSMulticiclo.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o MIPSMulticiclo_map.ncd MIPSMulticiclo.ngd MIPSMulticiclo.pcf 
+par -w -intstyle ise -ol high -t 1 MIPSMulticiclo_map.ncd MIPSMulticiclo.ncd MIPSMulticiclo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MIPSMulticiclo.twx MIPSMulticiclo.ncd -o MIPSMulticiclo.twr MIPSMulticiclo.pcf 
+bitgen -intstyle ise -f MIPSMulticiclo.ut MIPSMulticiclo.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc hdl/pines.ucf -p xc3s1000-ft256-5 MIPSMulticiclo.ngc MIPSMulticiclo.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o MIPSMulticiclo_map.ncd MIPSMulticiclo.ngd MIPSMulticiclo.pcf 
+par -w -intstyle ise -ol high -t 1 MIPSMulticiclo_map.ncd MIPSMulticiclo.ncd MIPSMulticiclo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MIPSMulticiclo.twx MIPSMulticiclo.ncd -o MIPSMulticiclo.twr MIPSMulticiclo.pcf 
+bitgen -intstyle ise -f MIPSMulticiclo.ut MIPSMulticiclo.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/.Xilinx/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc hdl/pines.ucf -p xc3s1000-ft256-5 MIPSMulticiclo.ngc MIPSMulticiclo.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o MIPSMulticiclo_map.ncd MIPSMulticiclo.ngd MIPSMulticiclo.pcf 
+par -w -intstyle ise -ol high -t 1 MIPSMulticiclo_map.ncd MIPSMulticiclo.ncd MIPSMulticiclo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MIPSMulticiclo.twx MIPSMulticiclo.ncd -o MIPSMulticiclo.twr MIPSMulticiclo.pcf 
+xst -intstyle ise -ifn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc hdl/pines.ucf -p xc3s1000-ft256-5 MIPSMulticiclo.ngc MIPSMulticiclo.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o MIPSMulticiclo_map.ncd MIPSMulticiclo.ngd MIPSMulticiclo.pcf 
+par -w -intstyle ise -ol high -t 1 MIPSMulticiclo_map.ncd MIPSMulticiclo.ncd MIPSMulticiclo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MIPSMulticiclo.twx MIPSMulticiclo.ncd -o MIPSMulticiclo.twr MIPSMulticiclo.pcf 
+bitgen -intstyle ise -f MIPSMulticiclo.ut MIPSMulticiclo.ncd 
+xst -intstyle ise -ifn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc hdl/pines.ucf -p xc3s1000-ft256-5 MIPSMulticiclo.ngc MIPSMulticiclo.ngd  
+xst -intstyle ise -ifn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc hdl/pines.ucf -p xc3s1000-ft256-5 MIPSMulticiclo.ngc MIPSMulticiclo.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o MIPSMulticiclo_map.ncd MIPSMulticiclo.ngd MIPSMulticiclo.pcf 
+par -w -intstyle ise -ol high -t 1 MIPSMulticiclo_map.ncd MIPSMulticiclo.ncd MIPSMulticiclo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MIPSMulticiclo.twx MIPSMulticiclo.ncd -o MIPSMulticiclo.twr MIPSMulticiclo.pcf 
+bitgen -intstyle ise -f MIPSMulticiclo.ut MIPSMulticiclo.ncd 
+xst -intstyle ise -ifn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.xst" -ofn "C:/hlocal/pr6/MIPSMulticiclo/MIPSMulticiclo.syr" 

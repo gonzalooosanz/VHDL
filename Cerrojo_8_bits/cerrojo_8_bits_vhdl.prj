@@ -1,0 +1,4 @@
+vhdl work "E:\Cerrojo_8_bits\divisor.vhd"
+vhdl work "E:\Cerrojo_8_bits\debouncer.vhd"
+vhdl work "E:\Cerrojo_8_bits\conv_7seg.vhd"
+vhdl work "E:\Cerrojo_8_bits\cerrojo_8_bits.vhd"

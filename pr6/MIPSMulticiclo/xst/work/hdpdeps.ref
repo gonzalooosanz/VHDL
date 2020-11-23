@@ -1,0 +1,101 @@
+V3 71
+FL C:/.Xilinx/pr6/MIPSMulticiclo/DCM_100MHz_10MHz.vhd 2018/12/17.15:46:48 P.15xf
+FL C:/.Xilinx/pr6/MIPSMulticiclo/hdl/ALU.vhd 2018/11/29.14:37:34 P.15xf
+FL C:/.Xilinx/pr6/MIPSMulticiclo/hdl/bancoDeRegistros.vhd 2018/12/09.14:30:16 P.15xf
+FL C:/.Xilinx/pr6/MIPSMulticiclo/hdl/BlockRam.vhd 2018/12/03.15:29:50 P.15xf
+EN work/BlockRam 1545063886 FL C:/.Xilinx/pr6/MIPSMulticiclo/hdl/BlockRam.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627
+AR work/BlockRam/Behavioral 1545063887 \
+      FL C:/.Xilinx/pr6/MIPSMulticiclo/hdl/BlockRam.vhd EN work/BlockRam 1545063886
+FL C:/.Xilinx/pr6/MIPSMulticiclo/hdl/conv_7seg.vhd 2018/12/09.14:25:12 P.15xf
+FL C:/.Xilinx/pr6/MIPSMulticiclo/hdl/debouncer.vhd 2018/12/10.12:32:16 P.15xf
+FL C:/.Xilinx/pr6/MIPSMulticiclo/hdl/memoria.vhd 2018/12/17.18:10:53 P.15xf
+FL C:/.Xilinx/pr6/MIPSMulticiclo/hdl/MIPSMulticiclo.vhd 2018/12/17.23:38:54 P.15xf
+FL C:/.Xilinx/pr6/MIPSMulticiclo/hdl/multiplexor2a1.vhd 2018/11/26.15:51:14 P.15xf
+FL C:/.Xilinx/pr6/MIPSMulticiclo/hdl/multiplexor4a1.vhd 2018/11/26.13:59:30 P.15xf
+FL C:/.Xilinx/pr6/MIPSMulticiclo/hdl/registro.vhd 2018/11/28.12:49:18 P.15xf
+FL C:/.Xilinx/pr6/MIPSMulticiclo/hdl/rutaDeDatos.vhd 2018/12/18.21:45:27 P.15xf
+FL C:/.Xilinx/pr6/MIPSMulticiclo/hdl/unidadDeControl.vhd 2018/12/18.21:45:08 P.15xf
+FL C:/.Xilinx/pr6/MIPSMulticiclo/ipcore_dir/mem32x512.vhd 2018/12/17.18:10:15 P.15xf
+FL C:/hlocal/pr6/MIPSMulticiclo/DCM_100MHz_10MHz.vhd 2018/12/17.15:46:48 P.15xf
+EN work/DCM_100MHz_10MHz 1545221678 \
+      FL C:/hlocal/pr6/MIPSMulticiclo/DCM_100MHz_10MHz.vhd PB ieee/std_logic_1164 1335251622 \
+      PB ieee/NUMERIC_STD 1335251627 LB UNISIM PH unisim/VCOMPONENTS 1335251629
+AR work/DCM_100MHz_10MHz/BEHAVIORAL 1545221679 \
+      FL C:/hlocal/pr6/MIPSMulticiclo/DCM_100MHz_10MHz.vhd \
+      EN work/DCM_100MHz_10MHz 1545221678 CP BUFG CP DCM
+FL C:/hlocal/pr6/MIPSMulticiclo/hdl/ALU.vhd 2018/11/29.14:37:34 P.15xf
+EN work/ALU 1545221676 FL C:/hlocal/pr6/MIPSMulticiclo/hdl/ALU.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627
+AR work/ALU/ALUArch 1545221677 \
+      FL C:/hlocal/pr6/MIPSMulticiclo/hdl/ALU.vhd EN work/ALU 1545221676
+FL C:/hlocal/pr6/MIPSMulticiclo/hdl/bancoDeRegistros.vhd 2018/12/09.14:30:16 P.15xf
+EN work/bancoDeRegistros 1545221674 \
+      FL C:/hlocal/pr6/MIPSMulticiclo/hdl/bancoDeRegistros.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627
+AR work/bancoDeRegistros/bancoDeRegistrosArch 1545221675 \
+      FL C:/hlocal/pr6/MIPSMulticiclo/hdl/bancoDeRegistros.vhd \
+      EN work/bancoDeRegistros 1545221674 CP busA
+FL C:/hlocal/pr6/MIPSMulticiclo/hdl/conv_7seg.vhd 2018/12/09.14:25:12 P.15xf
+EN work/conv_7seg 1545221686 FL C:/hlocal/pr6/MIPSMulticiclo/hdl/conv_7seg.vhd \
+      PB ieee/std_logic_1164 1335251622
+AR work/conv_7seg/Behavioral 1545221687 \
+      FL C:/hlocal/pr6/MIPSMulticiclo/hdl/conv_7seg.vhd EN work/conv_7seg 1545221686
+FL C:/hlocal/pr6/MIPSMulticiclo/hdl/debouncer.vhd 2018/12/10.12:32:16 P.15xf
+EN work/debouncer 1545221680 FL C:/hlocal/pr6/MIPSMulticiclo/hdl/debouncer.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627
+AR work/debouncer/debouncerArch 1545221681 \
+      FL C:/hlocal/pr6/MIPSMulticiclo/hdl/debouncer.vhd EN work/debouncer 1545221680
+FL C:/hlocal/pr6/MIPSMulticiclo/hdl/memoria.vhd 2018/12/17.18:10:53 P.15xf
+EN work/memoria 1545221670 FL C:/hlocal/pr6/MIPSMulticiclo/hdl/memoria.vhd \
+      PB ieee/std_logic_1164 1335251622
+AR work/memoria/memoriaArch 1545221671 \
+      FL C:/hlocal/pr6/MIPSMulticiclo/hdl/memoria.vhd EN work/memoria 1545221670 \
+      CP mem32x512
+FL C:/hlocal/pr6/MIPSMulticiclo/hdl/MIPSMulticiclo.vhd 2018/12/19.13:06:31 P.15xf
+EN work/MIPSMulticiclo 1545221688 \
+      FL C:/hlocal/pr6/MIPSMulticiclo/hdl/MIPSMulticiclo.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627
+AR work/MIPSMulticiclo/MIPSMulticicloArch 1545221689 \
+      FL C:/hlocal/pr6/MIPSMulticiclo/hdl/MIPSMulticiclo.vhd \
+      EN work/MIPSMulticiclo 1545221688 CP DCM_100MHz_10MHz CP debouncer \
+      CP unidadDeControl CP rutaDeDatos CP conv_7seg
+FL C:/hlocal/pr6/MIPSMulticiclo/hdl/multiplexor2a1.vhd 2018/11/26.15:51:14 P.15xf
+EN work/multiplexor2a1 1545221668 \
+      FL C:/hlocal/pr6/MIPSMulticiclo/hdl/multiplexor2a1.vhd \
+      PB ieee/std_logic_1164 1335251622
+AR work/multiplexor2a1/multiplexor2a1Arch 1545221669 \
+      FL C:/hlocal/pr6/MIPSMulticiclo/hdl/multiplexor2a1.vhd \
+      EN work/multiplexor2a1 1545221668
+FL C:/hlocal/pr6/MIPSMulticiclo/hdl/multiplexor4a1.vhd 2018/11/26.13:59:30 P.15xf
+EN work/multiplexor4a1 1545221672 \
+      FL C:/hlocal/pr6/MIPSMulticiclo/hdl/multiplexor4a1.vhd \
+      PB ieee/std_logic_1164 1335251622
+AR work/multiplexor4a1/multiplexor4a1Arch 1545221673 \
+      FL C:/hlocal/pr6/MIPSMulticiclo/hdl/multiplexor4a1.vhd \
+      EN work/multiplexor4a1 1545221672
+FL C:/hlocal/pr6/MIPSMulticiclo/hdl/registro.vhd 2018/11/28.12:49:18 P.15xf
+EN work/registro 1545221666 FL C:/hlocal/pr6/MIPSMulticiclo/hdl/registro.vhd \
+      PB ieee/std_logic_1164 1335251622
+AR work/registro/registroArch 1545221667 \
+      FL C:/hlocal/pr6/MIPSMulticiclo/hdl/registro.vhd EN work/registro 1545221666
+FL C:/hlocal/pr6/MIPSMulticiclo/hdl/rutaDeDatos.vhd 2018/12/19.13:05:09 P.15xf
+EN work/rutaDeDatos 1545221684 \
+      FL C:/hlocal/pr6/MIPSMulticiclo/hdl/rutaDeDatos.vhd PB ieee/std_logic_1164 1335251622
+AR work/rutaDeDatos/rutaDeDatosArch 1545221685 \
+      FL C:/hlocal/pr6/MIPSMulticiclo/hdl/rutaDeDatos.vhd EN work/rutaDeDatos 1545221684 \
+      CP registro CP multiplexor2a1 CP memoria CP multiplexor4a1 CP bancoDeRegistros \
+      CP ALU
+FL C:/hlocal/pr6/MIPSMulticiclo/hdl/unidadDeControl.vhd 2018/12/19.13:05:43 P.15xf
+EN work/unidadDeControl 1545221682 \
+      FL C:/hlocal/pr6/MIPSMulticiclo/hdl/unidadDeControl.vhd \
+      PB ieee/std_logic_1164 1335251622
+AR work/unidadDeControl/unidadDeControlArch 1545221683 \
+      FL C:/hlocal/pr6/MIPSMulticiclo/hdl/unidadDeControl.vhd \
+      EN work/unidadDeControl 1545221682
+FL C:/hlocal/pr6/MIPSMulticiclo/ipcore_dir/mem32x512.vhd 2018/12/18.22:02:54 P.15xf
+EN work/mem32x512 1545221664 \
+      FL C:/hlocal/pr6/MIPSMulticiclo/ipcore_dir/mem32x512.vhd \
+      PB ieee/std_logic_1164 1335251622
+AR work/mem32x512/mem32x512_a 1545221665 \
+      FL C:/hlocal/pr6/MIPSMulticiclo/ipcore_dir/mem32x512.vhd EN work/mem32x512 1545221664
